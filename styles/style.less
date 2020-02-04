@@ -104,6 +104,10 @@ body{
 	background-size: cover;
 	position: relative;
 
+	@media(max-width: @screen-xs-max){
+		padding-bottom: 12px;
+	}
+
 	.section-inner{
 		height: 100vh;
 		position: relative;
@@ -145,6 +149,10 @@ body{
 			font-size: 55px;
 			line-height: 60px;
 			margin-bottom: 16px;
+
+			@media(max-width: @screen-xs-max){
+				font-size: 47px;
+			}
 		}
 		&__subtitle{
 			.font-montserrat;
@@ -152,6 +160,10 @@ body{
 			line-height: 32px;
 			width: 61%;
 			margin: 0 auto 44px;
+
+			@media(max-width: @screen-xs-max){
+				margin: 0 auto 25px;
+			}
 		}
 		&__form{
 			display: flex;
